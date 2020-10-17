@@ -1,0 +1,80 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.3;
+  height: 100vh !important;
+  background-color: #2f3135;
+  overflow: hidden;
+}
+.chat__messages ::-webkit-scrollbar {
+  display: none;
+}
+.sidebar__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #2f3135;
+  color: white;
+  border-bottom: 3px solid #26282c;
+}
+.sidebar__channels {
+  flex: 1;
+  border-bottom: 1px solid gray;
+}
+
+.sidebar__addChannel {
+  cursor: pointer;
+}
+.sidebar__addChannel:hover {
+  color: white;
+}
+.sidebar__channelsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #2f3135;
+  color: gray;
+}
+.sidebar__header {
+  display: flex;
+}
+.sidebar__voice,
+.sidebar__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  background-color: #2f3135;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+.sidebar__voiceinfo {
+  flex: 1;
+  padding: 10px;
+}
+.sidebar__voiceIcon {
+  color: #4fb185;
+}
+.sidebar__voiceinfo > h3 {
+  color: #4fb185;
+}
+.sidebar__voiceinfo > p {
+  font-size: small;
+}
+.sidebar__voiceIcons > .MuiSvgIcon-root {
+  padding: 10px;
+  display: flex;
+}
+.sidebar__profileinfo {
+  flex: 1;
+  padding: 10px;
+}
+.sidebar__profileinfo > h3 {
+  color: white;
+}
+.sidebar__profileicon > .MuiSvgIcon-root {
+  padding: 10px;
+  display: flex;
+}
