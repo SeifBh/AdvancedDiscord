@@ -1,13 +1,13 @@
 import firebase from "firebase";
 const firebaseConfig = {
-    apiKey: "AIzaSyC0eeQnp8pUIM55nduT-7ILnimFD_0wtQA",
-    authDomain: "discord-clone-f7bdb.firebaseapp.com",
-    databaseURL: "https://discord-clone-f7bdb.firebaseio.com",
-    projectId: "discord-clone-f7bdb",
-    storageBucket: "discord-clone-f7bdb.appspot.com",
-    messagingSenderId: "254626371012",
-    appId: "1:254626371012:web:3c79a9de6612a208768091",
-    measurementId: "G-YFMQ9W30VJ"
+  apiKey: "AIzaSyCkyMoGMXFN07vNt7eyZ_URW-J-LzFTJIE",
+    authDomain: "advanceddiscord.firebaseapp.com",
+    databaseURL: "https://advanceddiscord.firebaseio.com",
+    projectId: "advanceddiscord",
+    storageBucket: "advanceddiscord.appspot.com",
+    messagingSenderId: "509691603685",
+    appId: "1:509691603685:web:0e8c192882b93ce590c20c",
+    measurementId: "G-HN1MP734GP"
   };
 
   const firebaseApp = firebase.initializeApp(firebaseConfig);
